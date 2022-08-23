@@ -1,0 +1,157 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgb(253, 241, 241);
+}
+
+.banner-img {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.644)), url(/images/donation13.jpg);
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+}
+
+.banner-content h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: 900;
+    font-size: 58px;
+
+}
+
+.banner-content p {
+    color: rgb(241, 233, 233);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.donate-btn {
+    position: absolute;
+    color: white;
+    padding: 10px 24px;
+    background: darkgoldenrod;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .6s;
+}
+
+.donate-btn:hover {
+    opacity: 0.6;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.donate-today h1 {
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+
+.donate-today p {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.donate-tk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-tk div {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: rgb(241, 231, 216);
+    margin-right: 15px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.donate-tk div:hover {
+    background-color: darkgoldenrod;
+    color: #fff;
+}
+
+.donate-today h5 {
+    text-align: center;
+}
+
+.tk-btn {
+    padding: 10px 24px;
+    background: darkgoldenrod;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .6s;
+    color: #fff;
+    margin: 25px auto;
+    display: block;
+    width: fit-content;
+
+}
+
+.tk-btn:hover {
+    opacity: 0.6;
+}
+
+.donate-plan h1 {
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+
+.donate-plan-header p {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.donate-plan-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.donate-plan-div img {
+    width: 50px;
+
+}
+
+.donate-plan-div-item3 {
+    background-color: rgb(241, 231, 216);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.donate-plan-div-item2 {
+    background-color: rgb(216, 227, 241);
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.donate-plan-div-item1 {
+    background-color: rgb(245, 203, 222);
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
