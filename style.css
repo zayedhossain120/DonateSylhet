@@ -155,3 +155,61 @@ body {
     border-radius: 5px;
     margin-right: 5px;
 }
+
+.donate-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.donate-content img {
+    width: 100%;
+}
+
+.donate-content-item1 {
+    max-width: 60%;
+    margin-right: 20px;
+}
+
+.donate-content h1 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+
+.donate-content a {
+    padding: 10px 24px;
+    background: darkgoldenrod;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .6s;
+    color: #fff;
+    margin: 25px auto;
+    display: inline-block;
+}
+
+.donate-content-item4 {
+    max-width: 60%;
+    margin-left: 20px;
+
+}
+
+.donate-content1 {
+    margin-top: 100px;
+}
+
+.footer {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: rgb(41, 40, 40);
+    color: #fff;
+
+}
+
+.footer h6 {
+    color: darkgoldenrod
+}
