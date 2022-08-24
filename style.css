@@ -8,7 +8,7 @@ body {
 
 .banner-img {
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.644)), url(/images/donation13.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.644)), url(images/donation13.jpg);
     background-size: cover;
     height: 700px;
     overflow: hidden;
@@ -212,4 +212,39 @@ body {
 
 .footer h6 {
     color: darkgoldenrod
+}
+
+.eamil-header h1 {
+    text-align: center;
+    font-size: 38px;
+}
+
+.eamil-header p {
+    text-align: center;
+}
+
+.mail-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-input input {
+    color: white;
+    padding: 10px 24px;
+    border: 1px solid darkgoldenrod;
+    text-decoration: none;
+}
+
+.mail-input button {
+    color: white;
+    padding: 10px 24px;
+    background: darkgoldenrod;
+    text-decoration: none;
+    transition: .6s;
+    border: 1px solid darkgoldenrod;
+}
+
+.mail-input button:hover {
+    opacity: 0.6;
 }
