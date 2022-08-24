@@ -8,7 +8,7 @@ body {
 
 .banner-img {
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.644)), url(images/donation13.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.644)), url(images/donation13.jpg);
     background-size: cover;
     height: 700px;
     overflow: hidden;
